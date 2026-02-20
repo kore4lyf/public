@@ -7,7 +7,7 @@ This repository serves as a Content Delivery Network (CDN) for media files. You 
 To access media files stored in this repository, use the following URL format:
 
 ```
-https://raw.githubusercontent.com/kore4lyf/public/main/path/to/your/media-file.jpg
+https://cdn.jsdelivr.net/gh/kore4lyf/public@master/path/to/your/media-file.jpg
 ```
 
 ## URL Structure
@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/kore4lyf/public/main/path/to/your/media-file.j
 The general format for accessing files is:
 
 ```
-https://raw.githubusercontent.com/kore4lyf/public/{branch}/{path-to-file}
+https://cdn.jsdelivr.net/gh/kore4lyf/public@{branch}/{path-to-file}
 ```
 
 Where:
@@ -25,14 +25,14 @@ Where:
 ## Examples
 
 ### Images
-- JPEG: `https://raw.githubusercontent.com/kore4lyf/public/main/images/photo.jpg`
-- PNG: `https://raw.githubusercontent.com/kore4lyf/public/main/assets/banner.png`
-- GIF: `https://raw.githubusercontent.com/kore4lyf/public/main/media/animation.gif`
+- JPEG: `https://cdn.jsdelivr.net/gh/kore4lyf/public@master/images/photo.jpg`
+- PNG: `https://cdn.jsdelivr.net/gh/kore4lyf/public@master/assets/banner.png`
+- GIF: `https://cdn.jsdelivr.net/gh/kore4lyf/public@master/media/animation.gif`
 
 ### Other Media Files
-- Video: `https://raw.githubusercontent.com/kore4lyf/public/main/videos/demo.mp4`
-- Audio: `https://raw.githubusercontent.com/kore4lyf/public/main/audio/sound.mp3`
-- Documents: `https://raw.githubusercontent.com/kore4lyf/public/main/docs/file.pdf`
+- Video: `https://cdn.jsdelivr.net/gh/kore4lyf/public@master/videos/demo.mp4`
+- Audio: `https://cdn.jsdelivr.net/gh/kore4lyf/public@master/audio/sound.mp3`
+- Documents: `https://cdn.jsdelivr.net/gh/kore4lyf/public@master/docs/file.pdf`
 
 ## Notes
 
